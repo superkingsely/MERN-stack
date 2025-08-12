@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+img{
+  width: 100%;
+  height: 100%;
+}
+.active{
+  background-color: #cfcfcf;
+  font-weight: 600;
+}
+select,input,textarea{
+  border:1px solid #c2c2c2;
+  outline-color: #c5b6a5;
+  border-radius: 4px;
+}
+
+.active img{
+  color: white;
+}
+
+a[href='/']{
+  background-color: #cfcfcf;
+  font-weight: 600;
+}
